@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="logo.png" width="960" max-width="80%" alt="Unbox" />
+    <img src="Logo.jpg" width="960" max-width="80%" alt="Logo" />
 </p>
 
 This repository contains the code used for my workshop "Getting started with unit testing in Swift". During the workshop, we take this untested & flawed app and make it nice & tested 👍.
