@@ -1,7 +1,7 @@
 import UIKit
 
 final class LoadingViewController: UIViewController {
-    private lazy var activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+    private lazy var activityIndicator = UIActivityIndicatorView(style: .gray)
 
     // MARK: - UIViewController
 

@@ -98,7 +98,7 @@ final class RepositoryViewController: UITableViewController {
 
     private func updateFavoriteBarButtonItem() {
         let isFavorite = FavoritesManager.shared.isRepositoryInFavorites(repository)
-        let itemType = isFavorite ? UIBarButtonSystemItem.trash : .bookmarks
+        let itemType = isFavorite ? UIBarButtonItem.SystemItem.trash : .bookmarks
 
         navigationItem.rightBarButtonItem = UIBarButtonItem(
             barButtonSystemItem: itemType,
